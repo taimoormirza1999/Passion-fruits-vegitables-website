@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --light-black: #333;
+    --primary-color: #EA7B2D;
+    --secondary-color: #753F98;
+    --footer-bg: #484848;
+    --ternary-color:#414041;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-primary-c {
+    color: var(--primary-color)
+}
+
+.text-secondary-c {
+    color: var(--secondary-color)
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.active-color {
+    color: var(--secondary-color)
+}
+
+.bg-primary-c {
+    background: var(--primary-color) !important;
+}
+.bg-ternary-c{
+    background: var(--ternary-color) ; 
+}
+
+.bg-secondary-c {
+
+    background: var(--secondary-color);
+}
+
+.bg-feature-s h6 {
+    display: block;
+    font-size: 1em;
+    color: var(--white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+header a:hover{
+    color:var(--secondary-color)
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
+}
+footer a:hover{
+color:var(--primary-color)!important;
+}
+.bg-feature-s {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s ease-in-out;
+    color: var(--white);
+}
+
+.bg-feature-s:hover {
+    background-image: url(./img/tempo.jpg) !important;
+    cursor: pointer;
+    background-size: cover !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+    z-index: 100;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  
+    background-color: #66D367;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+  }
+  .fixed-button i{
+    font-size: 50px;
+  }
+   /* Button hover styles */
+
+.btn-primary-c {
+    background: var(--secondary-color);
+    padding: 7px 30px !important;
+    border-radius: 50px;
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-primary-c:hover {
+    background: var(--primary-color) !important;
+    color: var(--white) !important;
+}
+
+.bg-card-img {
+    background-image: url("./img/fruits.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-card-about-img {
+    background-image: url("./img/aboutusimage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2%;
+}
+
+.bg-distribution-img {
+    background-image: url("./img/Capri-Sun_Safari-Fruit_flying-fruits-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 5%;
+    color: var(--white);
+}
+
+.bg-quality-img {
+    background-image: url("/img/banner2-1-scaled.jpg");
+    background-size: cover;
+    /* set the size of the background image to cover the entire element */
+    background-position: center;
+    /* position the background image in the center of the element */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10%;
+    color: var(--white);
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--primary-color);
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+h4 {
+    color: var(--secondary-color);
+    font-family: 'Muli', sans-serif;
+    font-weight: 800;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+h4.quality-heading {
+    color: var(--white) !important;
+}
+
+.quality .inner {
+    width: 50%;
+}
+
+p {
+    text-align: justify;
+    color: var(--light-black);
+    font-family: 'Muli';
+    font-size: 1em;
+    word-spacing: 0px;
+
+    -webkit-font-smoothing: antialiased !important;
+
+
+}
+.oc{
+color: var(--white);
+font-size: larger;
+font-family: 'Muli';
+padding-bottom:2px;}
+.oc:hover{
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+}
+
+.icon {
+
+    margin: 3px;
+    border-radius: 20px;
+    color: white;
+}
+
+.icon .fa-facebook-f {
+    background: #3B5998;
+    padding: 7px;
+}
+
+.icon .fa-twitter {
+    background: #52A2F3;
+    padding: 7px;
+}
+
+.icon .fa-linkedin-in {
+    background: #3F729B;
+    padding: 7px;
+}
+
+.icon .fa-instagram {
+    background: #E1306C;
+    padding: 7px;
+}
+
+.nav-item .nav-link {
+    font-size: 0.9em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 25px!important;
+}
+
+.ctabtn {
+    padding-left: 30px ;
+}
+.ctabtn .ctabtn_link {
+    border: 1px solid transparent;
+}
+
+.ctabtn:hover .ctabtn_link {
+    border: 1px solid var(--white);
+}
+
+.link-navigation {
+    display: flex;
+}
+
+.inner-card img.card-img-top {
+    height: 8.2em;
+}
+
+.inner-card h6 {
+    font-size: 1em;
+}
+
+.bg-footer {
+    background-color: var(--footer-bg);
+}
+
+
+
+.inner-carousel-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.carousel-heading {
+    border: 2px solid white;
+    padding: 3% 3%;
+    width: 23rem;
+
+    margin-bottom: 10%;
+    background-color: #33333334;
+}
+
+
+.navbar-nav .link-navigation{
+    padding-right: 20px!important;
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: 0!important;
+}
+
+
+/* About Page */
+.page-title-bg-about{
+    background-image: url(./img/tempo.jpg) !important;
+    background-size: cover !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336); 
+}
+
+/* Media Queries */
+/* Mobile devices in portrait mode */
+@media only screen and (max-width: 480px) {
+    /* styles go here */
+}
+
+/* Mobile devices in landscape mode */
+@media (max-width: 767px) {
+ 
+
+    .quality .inner {
+        width: 100%;
+    }
+    .navbar-nav {
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-nav .link-navigation {
+        flex-direction: column;
+       padding:0;
+       padding-right: 0!important;
+    }
+    .ctabtn,.nav-item .nav-link {
+        padding: 5% 0!important;
+        border-bottom: 1px solid var(--white);
+        width:100%;
+
+    }
+    .social-icons{
+        margin:3%;
+    }
+    
+}
+
+/* Tablets in portrait mode */
+@media only screen and (min-width: 768px) {
+    .carousel-item {
+        height: 500px !important;
+    }
+    #navbarSupportedContent{
+        display: flex!important;
+                     justify-content: flex-end;
+     }
+    .navbar-nav {
+        position: absolute;
+        right: 0
+    }
+  
+}
+
+/* Tablets in portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    nav.navbar.navbar-expand-lg.bg-primary-c.text-light.py-2{
+        padding-bottom: 5%!important;
+    }
+  }
+
+/* Tablets in landscape mode */
+@media only screen and (max-width: 1280px) {
+ .features-flex {
+    flex-wrap: wrap;
+    }   
+}
+
+/* Laptops and desktops */
+@media only screen and (min-width: 1281px) {
+    
+    
+}
